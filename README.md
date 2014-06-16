@@ -11,7 +11,6 @@ OSX instructions:
 * sudo pear upgrade-all;
 * sudo pear install PHP_CodeSniffer;
 * nano /private/etc/php.ini; -> add: include_path = ".:/php/includes:/usr/lib/php/pear/"
-* 
 
 Clone to /usr/local/share and run:
 * phpcs --config-set default_standard /usr/local/share/phpcs_codingstandard/ruleset.xml
