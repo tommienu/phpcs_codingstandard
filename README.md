@@ -3,6 +3,15 @@ phpcs_codingstandard
 
 Personal coding standards for phpcs
 
+OSX instructions:
+sudo cp /private/etc/php.ini.default /private/etc/php.ini;
+sudo php /usr/lib/php/install-pear-nozlib.phar;
+pear config-set php_ini /private/etc/php.ini;
+pecl config-set php_ini /private/etc/php.ini;
+sudo pear upgrade-all;
+sudo pear install PHP_CodeSniffer;
+
+----
 
 Clone to /usr/local/share and run:
 * phpcs --config-set default_standard /usr/local/share/phpcs_codingstandard/ruleset.xml
