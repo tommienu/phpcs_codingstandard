@@ -6,6 +6,11 @@ Personal coding standards for phpcs
 OSX instructions:
 * curl -O http://pear.php.net/go-pear.phar
 * sudo php -d detect_unicode=0 go-pear.phar
+* * Type 1 and press return.
+* * Enter: /usr/local/pear
+* * Type 4 and press return.
+* * Enter: /usr/local/bin
+* * Press return
 * sudo pear upgrade-all;
 * sudo pear install PHP_CodeSniffer;
 
