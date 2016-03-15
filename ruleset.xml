@@ -4,7 +4,6 @@
  <!--
  <rule ref="Generic.PHP.NoSilencedErrors"/>
  -->
- <rule ref="Generic.NamingConventions.CamelCapsFunctionName" /> 
  
  <rule ref="Zend">
    <rule ref="Generic.PHP.DisallowShortOpenTag"/>
