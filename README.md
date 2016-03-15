@@ -15,6 +15,7 @@ OSX instructions:
 * sudo pear install PHP_CodeSniffer;
 
 Clone to /usr/local/share and run:
+* sudo chmod -R 777 /usr/local/share/phpcs_codingstandard/
 * phpcs --config-set default_standard /usr/local/share/phpcs_codingstandard/ruleset.xml
 
 Update phpcs_additional_args in phpcs.sublime-settings and remove "--standard": """
