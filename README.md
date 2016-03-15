@@ -21,4 +21,4 @@ Update phpcs_additional_args in phpcs.sublime-settings and remove "--standard": 
 
 ---------------
 OSX fix if include_once fails:
-* sudo ln -s /usr/local/pear/share/pear/PHP/ PHP
+* Add /usr/local/pear/share/pear/PHP/ to include_path in php.ini
