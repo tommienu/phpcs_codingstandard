@@ -18,3 +18,7 @@ Clone to /usr/local/share and run:
 * phpcs --config-set default_standard /usr/local/share/phpcs_codingstandard/ruleset.xml
 
 Update phpcs_additional_args in phpcs.sublime-settings and remove "--standard": """
+
+---------------
+OSX fix if include_once fails:
+* sudo ln -s /usr/local/pear/share/pear/PHP/ PHP
